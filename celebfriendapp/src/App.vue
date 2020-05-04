@@ -1,5 +1,10 @@
 <template>
   <div id="app">
+    <div class="headers">
+          <h2>Celeb Pic App</h2>
+        <h4>Click the Snap button and scroll down to see your pic!</h4>
+    </div>
+
     <Camera v-on:takePicture= "this.takePicture" />
     <Gallery />
   </div>
@@ -36,5 +41,11 @@ body {
   margin: 0;
   padding: 0;
   background-color: #F3F3F3;
+}
+.headers {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 </style>
