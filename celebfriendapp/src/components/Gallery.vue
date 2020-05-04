@@ -22,7 +22,7 @@ export default {
         display: block;
         width: 100%;
         max-width: 1280px;
-
+        max-height: 720px;
         margin: 0 auto;
 
         box-shadow: 4px 4px 12px 0px transparentize($color: #171717, $amount: 0.5);

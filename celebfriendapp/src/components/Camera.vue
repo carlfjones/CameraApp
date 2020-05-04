@@ -44,7 +44,9 @@ export default {
 
 <style lang="scss" scoped>
 .camera {
+    display: inline;
     width: 100vw;
+    max-width: 800px;
     height: 100vh;
     padding: 25px;
 
